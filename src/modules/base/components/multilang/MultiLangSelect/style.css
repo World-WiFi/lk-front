@@ -1,0 +1,11 @@
+.Select-clear, .Select-clear-zone {
+    display: none;
+}
+
+.Select-control {
+    border: none;
+}
+
+.Select-control {
+    margin-right: 10px;
+}

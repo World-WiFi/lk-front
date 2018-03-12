@@ -1,0 +1,31 @@
+// Here you can add other styles
+.form-login-header, .form-login-footer {
+  background-color:#1aa7df;
+}
+
+.form-login-footer {
+  height: 40px;
+}
+
+.app-header.navbar .navbar-brand {
+  background-size: 150px auto;
+}
+
+.has-error {
+  border: 1px solid red;
+}
+
+.switch-wrapper {
+
+}
+
+.switch-wrapper > div {
+
+}
+
+.avatar-icon {
+  height: 25px;
+  -moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 10px; /* Safari, Chrome */
+  border-radius: 10px;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "NavMultilang",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./NavMultilang.js"
+}

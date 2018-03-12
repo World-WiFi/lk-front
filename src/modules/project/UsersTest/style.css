@@ -1,0 +1,82 @@
+.course-timeline-block-container {
+    margin-bottom: 10px;
+}
+.course-timeline-block-container .card-actions {
+    float: right;
+}
+
+.course-timeline-block {
+    padding: 10px;
+    border: 1px #ccc solid;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.course-timeline-lesson {
+     padding: 10px;
+     margin: 0 0;
+    clear:both;
+ }
+
+.course-timeline-lesson-step-circle {
+    width:50px;
+    float:left;
+}
+
+.course-timeline-lesson-content {
+    float:left;
+}
+
+
+
+
+/** */
+.timeline {
+    list-style: none;
+}
+.timeline > li {
+    margin-bottom: 60px;
+}
+
+/* for Desktop */
+@media (min-width: 640px) {
+    .timeline > li {
+        overflow: hidden;
+        margin: 0;
+        position: relative;
+    }
+    .timeline-date {
+        width: 110px;
+        float: left;
+        margin-top: 20px;
+    }
+    .timeline-content {
+        width: 75%;
+        float: left;
+        border-left: 3px #e5e5d1 solid;
+        padding-left: 30px;
+    }
+    .timeline-content:before {
+        content: "";
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        left: 100px;
+        top: 24px;
+        border-radius: 100%;
+    }
+    .timeline-content.step-end:before {
+        content: "";
+        background: #6fc173;
+    }
+
+    .timeline-content.step-empty:before {
+        content: "";
+        background: #cbcbcb;
+    }
+
+
+    .timeline-content.step-work:before {
+        content: "";
+        background: #cb7733;
+    }
+}

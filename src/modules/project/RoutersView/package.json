@@ -1,0 +1,6 @@
+{
+  "name": "RoutersView",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./RoutersView.js"
+}

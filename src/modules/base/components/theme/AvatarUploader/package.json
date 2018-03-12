@@ -1,0 +1,6 @@
+{
+  "name": "AvatarUploader",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AvatarUploader.js"
+}
